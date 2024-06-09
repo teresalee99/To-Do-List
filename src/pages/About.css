@@ -10,7 +10,7 @@
 
 .left {
   left: 0;
-  background-color: #0f62fe;
+  background-color: #d6f0ff;
 }
 
 .right {
@@ -22,7 +22,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-align: centers;
+  text-align: center;
 }
 
 .name_title {
@@ -30,10 +30,38 @@
   color: black;
   text-align: left;
   padding-bottom: 20px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .brief_description {
   text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+.fun_fact {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.icon1 {
+  margin-right: 10px;
+  color: pink
+}
+
+.icon2 {
+  margin-right: 10px;
+  color: rgb(166, 166, 255)
+}
+
+.icon3 {
+  margin-right: 10px;
+  color: rgb(135, 255, 95)
+}
+
+.fun_fact_text {
+  font-size: 13px;
 }
 
 .profile_image {
